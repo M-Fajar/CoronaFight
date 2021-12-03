@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">CoronaFight</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="informasi_terkini_virus_corona_di_indonesia">Informasi terkini virus corona di Indonesia</string>
+    <string name="pantau_covid_19_nindonesia">PANTAU COVID-19 \nINDONESIA</string>
+    <string name="berikut_infomarsi_covid_19_hari_ini">Berikut infomarsi COVID-19 saat ini</string>
+    <string name="image">image</string>
+    <string name="positif">Positif</string>
+    <string name="orang_dalam_pemantauan_odp">ORANG DALAM PEMANTAUAN (ODP)</string>
+    <string name="proses_pemantauan">Proses Pemantauan</string>
+    <string name="selesai_pantau">Selesai Pantau</string>
+    <string name="total_pdp">Total PDP</string>
+    <string name="masih_dirawat">Masih Dirawat</string>
+    <string name="sudah_sembuh">Sudah Sembuh</string>
+    <string name="kasus_terkonfirmasi_covid_19">KASUS TERKONFIRMASI COVID-19</string>
+    <string name="total_positive">Total Positive</string>
+    <string name="sembuh">Sembuh</string>
+    <string name="meninggal">Meninggal</string>
+    <string name="dirawat">Dirawat</string>
+    <string name="pasien_dalam_pemantauan_pdp">PASIEN DALAM PEMANTAUAN (PDP)</string>
+    <string name="himbauan">NB: Mohon maaf bila data kasus di Indonesia yang disajikan berbeda atau bisa jadi lebih terupdate daripada data internasional (Worldometers, WHO, dll), sebab data internasional akan mengupdate otomatis jika sudah mendapat data dari pemerintahan suatu negara</string>
+
+    <string name="info">Deteksi dini ini dapat dimanfaatkan oleh masyarakat umum. Saudara tinggal menjawab beberapa pertanyaan dan hasil jawaban akan dianalisis secara online untuk menduga status saudara termasuk dalam kategori: sehat/bebas Covid-19, ODP (Orang Dalam Pemantauan) atau PDP (Pasien Dalam Pengawasan).
+</string>
+
+    <string name="soal">Baerapa usia Anda ? </string>
+    <string name="gender">Apa jenis kelamin Anda ?</string>
+    <string-array name="pertanyaan11">
+        <item>Apakah anda memiliki riwayat/gejala demam dalam 14 hari terakhir ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan12">
+        <item>Apakah Anda merasakan batuk, hidung tersumbat atau nyeri tenggorokan ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan13">
+        <item>Apakah nafas Anda terasa sesak?</item>
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan21">
+        <item>Dalam 14 hari terakhir, apakah Ana memiliki riwayat perjalanan ke luar negeri ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan22">
+        <item>Dalam 14 hari terakhir, apakah Anda memiliki riwayat perjalanan atau berada diwilayah di indonesia yang dikategorikan terjangkit COVID-19 dengan transmisi lokal ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan23">
+        <item>Dalam 14 hari terakhir, apakah Anda pernah bertemu/merawat/tinggal serumah/bekerja bersama dengan penderita positif COVID-19 ?</item>
+        <item>Pernah</item>
+        <item>Belum pernah</item>
+    </string-array>
+    <string-array name="pertanyaan24">
+        <item>Dalam 14 hari terakhir, apakah Anda pernah bekerja atau mengunjungi fasilitas layanan kesehatan dengan kasus terkonfirmasi atau suspek infeksi COVID-19 diwilayah/negara terjangkit ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan25">
+        <item>Dalam 14 hari terakhir, apakah Anda pernah merawat/tinggal serumah/kontak langsung dengan pasien ISPA(infeksi saluran pernapasan akut) berat yang tidak diketahui penyebab penyakit ?</item>
+        <item>Ya</item>
+        <item>Tidak</item>
+    </string-array>
+    <string-array name="pertanyaan26">
+        <item>Apakah Anda memiliki demam lebih 38 Derajat Calcius atau ada riwayat demam, memiliki riwayat perjalanan ke luar negeri atau kontak dengan orang yang memiliki riwayat perjalanan ke luar negeri ?</item>
+        <item>Iya</item>
+        <item>Tidak</item>
+    </string-array>
+</resources>

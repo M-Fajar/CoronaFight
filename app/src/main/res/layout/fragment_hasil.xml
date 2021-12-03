@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/srl_banyuwangi"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.banyuwangi.BanyuwangiFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_hasil">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+            android:id="@+id/container_banyuwangi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                app:cardCornerRadius="@dimen/_8sdp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_8sdp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hasil Diagnosa"
+                        android:textAlignment="center"
+                        android:id="@+id/tv_hasil"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_25ssp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="@dimen/_10sdp"/>
+
+
+
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    android:id="@+id/img_status"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/odp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10ssp"
+                    android:id="@+id/tv_status"
+                    android:textColor="@color/material_on_background_emphasis_high_type"
+                    android:text="Orang Dalam Pemantauan (ODP)"
+                    android:textSize="@dimen/_18ssp"
+                    android:textStyle="bold"
+
+                    android:gravity="center_horizontal"
+
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:background="@color/cardview_dark_background"
+                    android:visibility="visible"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    android:background="@drawable/custom_retangle"
+                    android:layout_margin="@dimen/_20sdp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saran"
+                        android:layout_margin="@dimen/_2sdp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/_18sdp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_saran"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/_6sdp"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="@string/info"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Edukasi"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:layout_margin="@dimen/_2sdp"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:gravity="center_horizontal"
+                        android:textSize="@dimen/_18sdp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_edu"
+                        android:gravity="center_horizontal"
+                        android:padding="@dimen/_6sdp"
+                        android:textSize="@dimen/_14sdp"
+                        android:text="@string/info"/>
+
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:text="Selesai"
+                    android:id="@+id/btn_done"
+                    android:backgroundTint="@color/button"
+                    android:paddingHorizontal="@dimen/_10ssp"
+                    android:textAllCaps="false"
+
+                    />
+        </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

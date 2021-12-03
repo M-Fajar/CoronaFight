@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6998cc</color>
+    <color name="colorPrimaryDark">#9bc9ff</color>
+    <color name="colorAccent">#cefcff</color>
+    <color name="colorBar">#651FFF</color>
+    <color name="bg">#EBFEFF</color>
+    <color name="button">#6998cc</color>
+    <color name="endbg">#DFF2F6</color>
+    <color name="endtext">#228798</color>
+    <color name="endbar">#e37681</color>
+</resources>

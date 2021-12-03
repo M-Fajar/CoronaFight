@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/srl_banyuwangi"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/endbg"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.banyuwangi.BanyuwangiFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_tanya"
+        android:fitsSystemWindows="true">
+
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_tanya"
+            android:paddingHorizontal="@dimen/_13sdp"
+            android:paddingVertical="@dimen/_15sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pertanyan "
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@color/endtext"
+                android:textSize="@dimen/_15ssp"
+                android:id="@+id/tv_per"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/endtext"
+                android:textSize="@dimen/_15ssp"
+                android:layout_toEndOf="@id/tv_per"
+                android:id="@+id/tv_no"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/tv_no"
+                android:text="/12"
+                android:textColor="@color/endtext"
+                android:textSize="@dimen/_15ssp"
+                android:id="@+id/tv_max"/>
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:paddingHorizontal="@dimen/_5sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/proggres_tanya"
+                android:progressDrawable="@drawable/progress_states"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:progress="1"
+                android:max="12"
+                android:backgroundTint="#ffff"
+                android:indeterminate="false"
+                android:progressTint="@color/endbar"
+                android:layout_below="@id/tv_per"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/custom_retangle"
+                android:padding="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_28sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:layout_below="@id/proggres_tanya">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_tanya"
+                    android:textStyle="bold"
+                    android:fontFamily="serif"
+                    android:textSize="@dimen/_15ssp"
+                    android:textColor="@color/endtext"
+                    android:text="@string/soal"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_tanya"
+                    android:padding="@dimen/_10sdp"
+                    android:id="@+id/rg_tanya"
+                    android:layout_marginTop="@dimen/_23sdp">
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_rb"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="14 tahun atau kurang"
+
+                        />
+                    <RadioButton
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/custom_rb"
+                        android:text="15 sampai 49 tahun"
+                        />
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/custom_rb"
+                        android:text="50 sampai 64 tahun"
+                        />
+
+                    <RadioButton
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/custom_rb"
+                        android:text="65 tahun atau lebih"
+                        />
+
+                </RadioGroup>
+            <Button
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_next"
+                android:text="Selanjutnya"
+                android:textAllCaps="false"
+                android:background="@drawable/custom_button"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                />
+                <Button
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btn_back"
+                    android:text="Kembali"
+                    android:background="@drawable/custom_button"
+                    android:backgroundTint="#fff"
+                    android:textColor="@color/colorPrimary"
+                    android:textAllCaps="false"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</LinearLayout>
